@@ -5,8 +5,7 @@
 
 <!-- badges: start -->
 
-[![Under
-Development](https://img.shields.io/badge/status-under%20development-red.svg)](https://github.com/the-mad-statter/edu.wustl.medicine.josp.xlam)
+[![](https://img.shields.io/github/v/release/the-mad-statter/edu.wustl.medicine.josp.xlam?include_prereleases)](https://github.com/the-mad-statter/edu.wustl.medicine.josp.xlam/releases)
 [![Last
 Commit](https://img.shields.io/github/last-commit/the-mad-statter/edu.wustl.medicine.josp.xlam.svg)](https://github.com/the-mad-statter/edu.wustl.medicine.josp.xlam/commits/main)
 <!-- badges: end -->
@@ -23,7 +22,7 @@ Washington University in St. Louis](https://medicine.wustl.edu/josp/).
 
 1.  Download the latest
     [release](https://github.com/the-mad-statter/edu.wustl.medicine.josp.xlam/releases)
-2.  Place the file in C:\\Users\\\<your
+2.  Place the “edu.wustl.medicine.josp.xlam” file in C:\\Users\\\<your
     account\>\\AppData\\Roaming\\Microsoft\\AddIns
 3.  Right click the file, select Properties, and unblock the file
 4.  Open Excel
@@ -31,8 +30,8 @@ Washington University in St. Louis](https://medicine.wustl.edu/josp/).
 6.  Click Add-ins
 7.  Make sure “Excel Add-ins” is selected in the Manage drop down box
     and click the Go button
-8.  Check the box next to edu.wustl.medicine.josp.xlam and click the OK
-    button
+8.  Check the box next to “edu.wustl.medicine.josp.xlam” and click the
+    OK button
 
 You should now have new functions which all start with JOSP (e.g.,
 JOSP_BJH_MKTS_TER1_2019()).

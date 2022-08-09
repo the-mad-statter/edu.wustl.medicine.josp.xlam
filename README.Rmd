@@ -50,9 +50,9 @@ make_release_badge <-
            package = params$package) {
     sprintf(
       paste0(
-        "[![]",
-        "(https://img.shields.io/github/release/%s/%s.svg?label=version)]",
-        "(https://github.com/%s/%s/releases)"
+        "[![](",
+        "https://img.shields.io/github/v/release/%s/%s?include_prereleases",
+        ")](https://github.com/%s/%s/releases)"
       ), 
       github, package, github, package
     )
@@ -119,7 +119,7 @@ sticker(
 # `r params$package` <img src="`r params$img_dir`/`r params$package`_hex.png" align="right" width="125px" />
 
 <!-- badges: start -->
-`r make_under_development_badge()`
+`r make_release_badge()`
 `r make_last_commit_badge()`
 <!-- badges: end -->
   
@@ -132,13 +132,13 @@ This repository contains a Microsoft Excel add-in which defines additional funct
 ## Installation
   
 1. Download the latest [release](https://github.com/`r params$github`/`r params$package`/releases)
-2. Place the file in C:\\Users\\&lt;your account&gt;\\AppData\\Roaming\\Microsoft\\AddIns
+2. Place the "edu.wustl.medicine.josp.xlam" file in C:\\Users\\&lt;your account&gt;\\AppData\\Roaming\\Microsoft\\AddIns
 3. Right click the file, select Properties, and unblock the file
 4. Open Excel
 5. Click Options
 6. Click Add-ins
 7. Make sure "Excel Add-ins" is selected in the Manage drop down box and click the Go button
-8. Check the box next to `r params$package` and click the OK button
+8. Check the box next to "`r params$package`" and click the OK button
 
 You should now have new functions which all start with JOSP (e.g., JOSP_BJH_MKTS_TER1_2019()).
 
